@@ -292,3 +292,13 @@ header li:hover {
   color: var(--cor-letras-span);
   margin: 40px 0;
 }
+
+
+/* AREA RESPONSIVA */
+
+@media screen and (max-width: 1000px){
+  *{
+    flex-direction: column;
+  }
+}
+
