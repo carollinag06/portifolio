@@ -14,6 +14,7 @@
   font-family: var(--fonte-principal);
   color: white;
   scroll-behavior: smooth;
+  width: 100dvh;
   
 }
 
