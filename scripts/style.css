@@ -317,6 +317,7 @@ header li:hover {
 
   #home{
     margin-top: 10%;
+    flex-direction: column-reverse;
   }
 }
 
