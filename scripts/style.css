@@ -302,7 +302,7 @@ header li:hover {
 
 /* AREA RESPONSIVA */
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 950px){
   *{
     flex-direction: column;
     margin: 0;
