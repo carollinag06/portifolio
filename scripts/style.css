@@ -14,8 +14,6 @@
   font-family: var(--fonte-principal);
   color: white;
   scroll-behavior: smooth;
-  width: 100dvh;
-  
 }
 
 a{
@@ -206,8 +204,6 @@ header li:hover {
   margin: 20px 0 0 0;
 }
 
-
-
 /* ESTILO PROJETOS */
 #projetos{
   padding: 150px 4%;
@@ -275,18 +271,27 @@ header li:hover {
 #contato input{
   background-color: rgba(255, 255, 255, 0.897);
   color: black;
-  max-width: 800px;
+  width: 100%;
   padding: 20px;
   margin-bottom: 10px;
-  width: 40%;
 }
 
 #contato form{
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  width: 40%;
+  max-width: 50%;
+  display: inline-block;
 }
 
 #contato form textarea{
   color: black;
+}
+
+#contato #mensagem{
+  background-color: white;
+  width: 100%;
 }
 
 #contato h1{
@@ -300,6 +305,14 @@ header li:hover {
 @media screen and (max-width: 1000px){
   *{
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    align-items: center;
+  }
+
+  header{
+    display: none;
   }
 }
 
