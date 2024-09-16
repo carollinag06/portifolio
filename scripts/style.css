@@ -14,6 +14,7 @@
   font-family: var(--fonte-principal);
   color: white;
   scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 a{
@@ -267,6 +268,7 @@ header li:hover {
   margin: auto;
   justify-content: center;
   text-align: center;
+  padding-bottom: 200px;
 }
 
 #contato input{
@@ -300,6 +302,14 @@ header li:hover {
   margin: 40px 0;
 }
 
+/* ESTILO FOOTER */
+footer{
+  display: flex;
+  background-color: rgb(27, 27, 27);
+  justify-content: space-between;
+  padding: 0 4%;
+  align-items: center;
+}
 
 /* AREA RESPONSIVA */
 
@@ -308,8 +318,12 @@ header li:hover {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: black;
     align-items: center;
+  }
+
+  main{
+    background-color: black;
+    
   }
 
   header{
@@ -319,6 +333,7 @@ header li:hover {
   #home{
     padding: 30px;
     flex-direction: column-reverse;
+    
   }
 
   #home img{
@@ -330,7 +345,13 @@ header li:hover {
     padding: 10px;
   }
 
-  #projetos .container{
+  #projetos{
+
+  }
+
+  footer{
+    background-color: rgb(27, 27, 27);
+    flex-direction: row;
   }
 }
 
