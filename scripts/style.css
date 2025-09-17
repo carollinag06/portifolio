@@ -137,6 +137,7 @@ header li:hover {
   justify-content: space-around;
   gap: 50px;
   background-color: black;
+  width: 100%;
 }
 
 #home .texto strong {
@@ -223,7 +224,6 @@ header li:hover {
 #projetos .grid-container{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 #projetos .container{
